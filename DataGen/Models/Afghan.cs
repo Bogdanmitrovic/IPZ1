@@ -1,12 +1,15 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace DataGen.Models;
 
 public class Afghan
 {
-    string AfghanId { get; set; }
-    string Name { get; set; }
-    string Surname { get; set; }
-    string Gender { get; set; }
-    string Role { get; set; }
-    int Age { get; set; }
-    string OrganizationId { get; set; }
+    [Key]
+    public string AfghanId { get; set; }
+    public string Name { get; set; }
+    public string Surname { get; set; }
+    public string Gender { get; set; }
+    public string Role { get; set; }
+    public int Age { get; set; }
+    public string OrganizationId { get; set; }
 }

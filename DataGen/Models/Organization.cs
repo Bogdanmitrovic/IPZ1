@@ -1,8 +1,11 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace DataGen.Models;
 
 public class Organization
 {
-    string OrganizationId { get; set; }
-    string Name { get; set; }
-    string Country { get; set; }
+    [Key]
+    public string OrganizationId { get; set; }
+    public string Name { get; set; }
+    public string Country { get; set; }
 }

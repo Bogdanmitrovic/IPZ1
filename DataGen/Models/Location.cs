@@ -2,10 +2,10 @@ namespace DataGen.Models;
 
 public class Location
 {
-    string LocationId { get; set; }
-    string Name { get; set; }
-    string Region { get; set; }
-    string Country { get; set; }
-    int Latitude { get; set; }
-    int Longitude { get; set; }
+    public string LocationId { get; set; }
+    public string Name { get; set; }
+    public string Region { get; set; }
+    public string Country { get; set; }
+    public int Latitude { get; set; }
+    public int Longitude { get; set; }
 }
